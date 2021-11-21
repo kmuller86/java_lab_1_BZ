@@ -4,16 +4,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int zmienna1 = 16;
-        String imie1 = "Piotr";
-        double wiek = 27.11;
-        boolean zmiennaBoolean = true;
-
-        System.out.println(imie1);
-        System.out.println(zmienna1);
-        System.out.println(wiek);
-        System.out.print(zmiennaBoolean);
-
 
 
         //cw2
