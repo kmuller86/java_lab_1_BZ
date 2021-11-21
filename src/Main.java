@@ -2,20 +2,33 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
-
-        /* ćw.3 */
-
-        /*  zad.1 napisać interfejs który bedzie słuzył do wpisania danych osobowych:
-        *   a) Imię, nazwisko, wiek, nr indeksu,
-        *   dane mają być wprowadzane z klawiatury w konsoli
-        *   b) wyświetlić dane za pomocą println i printf
-        */
+    public static void main(String[] args){
 
 
-        /*  zad.2 zadeklarować 2 zmienne typu int i wykonać na nich obliczenia arytmetyczn (+, -, *, /, %)
-        *   wynik wyświetlić w konsoli programu
-        */
+    String imie = "Bartek";
+    String nazwisko = "Zawadzki";
+    int nrIndexu = 56581;
+    int wiek = 21;
+   //B boolean zmiennaBoolean = true;
 
-    }
+    Scanner scan = new Scanner(System.in);
+
+        System.out.print("Poodaj Imie: ");
+        scan.next();
+
+        System.out.print("Poodaj Nazwisko: ");
+        scan.next();
+
+        System.out.print("wiek: ");
+        scan.nextInt();
+
+        System.out.print("Podaj nr indeksu: ");
+        scan.nextInt();
+
+        System.out.printf("%s ,%s ",imie ,nazwisko);
+        System.out.println("wiek: "+wiek);
+        System.out.println("nr indeksu: "+nrIndexu);
+
+
+}
 }
